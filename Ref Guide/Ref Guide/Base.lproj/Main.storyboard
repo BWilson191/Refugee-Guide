@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ref_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nkc-HS-1yG">
+                                <rect key="frame" x="97" y="484" width="220" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjV-pz-GGV">
+                                        <rect key="frame" x="0.0" y="0.5" width="60" height="57.5"/>
+                                        <state key="normal" backgroundImage="graduationcap.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwE-G6-Yof">
+                                        <rect key="frame" x="80" y="0.5" width="60" height="54.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" backgroundImage="paperplane.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjH-B1-tGK">
+                                        <rect key="frame" x="160" y="-0.5" width="60" height="55.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="SYK-uy-cGG"/>
+                                            <constraint firstAttribute="height" constant="55" id="ecx-q1-Rkw"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="books.vertical.fill" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="MWB-Rz-07q"/>
+                                    <constraint firstAttribute="height" constant="55" id="WrW-e2-RCE"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2Fr-Jl-SiT">
+                                <rect key="frame" x="97" y="339" width="220" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epC-cn-YEC">
+                                        <rect key="frame" x="0.0" y="0.5" width="60" height="57.5"/>
+                                        <state key="normal" backgroundImage="graduationcap.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDo-5R-cTk">
+                                        <rect key="frame" x="80" y="0.5" width="60" height="54.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" backgroundImage="paperplane.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfj-3y-ZBd">
+                                        <rect key="frame" x="160" y="-0.5" width="60" height="55.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="8md-E2-JuG"/>
+                                            <constraint firstAttribute="height" constant="55" id="VDU-hK-nsw"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="books.vertical.fill" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="df4-IT-kdY"/>
+                                    <constraint firstAttribute="width" constant="220" id="fGM-9q-xQb"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Fr-Jl-SiT" secondAttribute="trailing" constant="97" id="ADN-Ll-66q"/>
+                            <constraint firstItem="nkc-HS-1yG" firstAttribute="top" secondItem="2Fr-Jl-SiT" secondAttribute="bottom" constant="90" id="AIc-Cc-wz9"/>
+                            <constraint firstItem="nkc-HS-1yG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="D1B-KQ-sfT"/>
+                            <constraint firstItem="nkc-HS-1yG" firstAttribute="top" secondItem="2Fr-Jl-SiT" secondAttribute="bottom" constant="90" id="Ien-te-dQ5"/>
+                            <constraint firstItem="2Fr-Jl-SiT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="OF2-XC-zKq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nkc-HS-1yG" secondAttribute="trailing" constant="97" id="WLJ-G2-onu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nkc-HS-1yG" secondAttribute="bottom" constant="323" id="hfB-bg-vBs"/>
+                            <constraint firstItem="2Fr-Jl-SiT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="295" id="vfu-Bf-AQD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
