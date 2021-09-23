@@ -20,26 +20,28 @@
                                 <rect key="frame" x="97" y="484" width="220" height="55"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjV-pz-GGV">
-                                        <rect key="frame" x="0.0" y="0.5" width="60" height="57.5"/>
-                                        <state key="normal" backgroundImage="graduationcap.fill" catalog="system"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Kh0-xO-9pz"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="stethoscope" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwE-G6-Yof">
-                                        <rect key="frame" x="80" y="0.5" width="60" height="54.5"/>
+                                        <rect key="frame" x="80" y="1" width="60" height="52.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                        <state key="normal" backgroundImage="paperplane.fill" catalog="system"/>
+                                        <state key="normal" backgroundImage="textbox.ar" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjH-B1-tGK">
-                                        <rect key="frame" x="160" y="-0.5" width="60" height="55.5"/>
+                                        <rect key="frame" x="160" y="0.5" width="60" height="54.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="SYK-uy-cGG"/>
                                             <constraint firstAttribute="height" constant="55" id="ecx-q1-Rkw"/>
                                         </constraints>
-                                        <state key="normal" backgroundImage="books.vertical.fill" catalog="system"/>
+                                        <state key="normal" backgroundImage="ellipses.bubble.fill" catalog="system"/>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="MWB-Rz-07q"/>
-                                    <constraint firstAttribute="height" constant="55" id="WrW-e2-RCE"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2Fr-Jl-SiT">
@@ -90,8 +92,11 @@
     </scenes>
     <resources>
         <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
+        <image name="ellipses.bubble.fill" catalog="system" width="128" height="110"/>
         <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <image name="stethoscope" catalog="system" width="128" height="96"/>
+        <image name="textbox.ar" catalog="system" width="128" height="91"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
