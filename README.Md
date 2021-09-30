@@ -1,0 +1,21 @@
+
+
+
+-- Hello, this is Adam from Atom Lab X 👨🏾‍💻
+
+Project Overview:
+* The <a href="#">Live Preview is coming soon</a> for the project.
+* This is a team project & it's an going project.
+* The goal of the project is to help new refugees who just came to the states.
+* This project is meant to be showcased to @Apple Event For Indie developers.
+
+Contribution Guidelines:
+* Feedback is welcome.
+* No Forking Allowed.
+
+
+C Ya on the other side! 👋🏾
+
+Side note: 
+You can find me on Youtube <a href="https://www.youtube.com/channel/UC3a4IUMJzJZCuxm8iOcTrJA">@Atom Lab X</a> 
+
