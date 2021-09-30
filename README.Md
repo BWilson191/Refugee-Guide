@@ -16,6 +16,9 @@ Contribution Guidelines:
 
 C Ya on the other side! 👋🏾
 
-Side note: 
-You can find me on Youtube <a href="https://www.youtube.com/channel/UC3a4IUMJzJZCuxm8iOcTrJA">@Atom Lab X</a> 
+Side notes: 
+Team Members:
+<a href="https://github.com/AtomLabX">Adam O.</a>
+<a href="https://github.com/ashtonsyed">Ashton S.</a> 
+<a href="https://github.com/BWilson191">Baley W.</a> 
 
