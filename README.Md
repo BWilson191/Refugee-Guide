@@ -18,7 +18,7 @@ C Ya on the other side! 👋🏾
 
 Side notes: 
 Team Members:
-<a href="https://github.com/AtomLabX">Adam O.</a><br>
+<br><a href="https://github.com/AtomLabX">Adam O.</a><br>
 <a href="https://github.com/ashtonsyed">Ashton S.</a><br>
 <a href="https://github.com/BWilson191">Baley W.</a><br>
 
