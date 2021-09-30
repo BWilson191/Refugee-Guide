@@ -17,7 +17,7 @@ Contribution Guidelines:
 C Ya on the other side! 👋🏾
 
 Side notes: 
-Team Members:
+<br>Team Members:
 <br><a href="https://github.com/AtomLabX">Adam O.</a><br>
 <a href="https://github.com/ashtonsyed">Ashton S.</a><br>
 <a href="https://github.com/BWilson191">Baley W.</a><br>
